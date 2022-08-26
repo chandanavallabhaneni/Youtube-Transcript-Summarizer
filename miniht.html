@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title style="text-align:center"> 
+            Youtube Transcript Summarizer
+        </title>
+    </head>
+    <body style ="background-color:darksalmon;text-align:center;margin-top: 80px;">
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg/1200px-YouTube_play_button_icon_%282013%E2%80%932017%29.svg.png" width="100" height="80">
+        <h1 style="color:black;font-size: 45px;">Youtube Transcript Summarizer </h1>
+        <form style="font-family:'Times New Roman', Times, serif;font-size: 25px;font-weight:100;border-radius: 20px;" method="post" action="/frm">
+        <label for="link">Enter the video URL:</label>
+        <input type="text" id="link" name="link"><br><br><br>
+        <input type="submit" value="Summarize Video" style="background-color:black;color:white;font-family: Arial, Helvetica, sans-serif;border-radius: 5px;padding: 10px;margin: 5px;box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;">
+    </form>
+    <textarea rows="20" cols="100">{{link}}</textarea>
+    </body>
+    
+</html>
